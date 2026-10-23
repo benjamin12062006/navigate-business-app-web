@@ -1,0 +1,64 @@
+---
+import SiteHeader from '../components/layout/SiteHeader.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  skipTo?: string;
+}
+
+const { title, description, skipTo = '#contenido' } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f4f5ef" />
+    <title>{title}</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="m-0 min-w-[320px] bg-paper font-sans leading-[normal] text-ink
+      [font-synthesis:none] [text-rendering:optimizeLegibility]
+      selection:bg-[#d7e3c9] selection:text-[#203622]
+      [&_:focus-visible]:outline-[3px] [&_:focus-visible]:outline-solid
+      [&_:focus-visible]:outline-focus [&_:focus-visible]:outline-offset-[5px]
+      [&_a]:[-webkit-tap-highlight-color:transparent]
+      [&_button]:[-webkit-tap-highlight-color:transparent]
+      [&_summary]:[-webkit-tap-highlight-color:transparent]"
+  >
+    <a
+      class="fixed top-3 left-3 z-100 -translate-y-[200%] rounded-md bg-white p-3 underline focus:translate-y-0"
+      href={skipTo}
+    >
+      Ir al acceso
+    </a>
+    <div class="mx-auto flex min-h-svh max-w-[1440px] flex-col px-[70px] max-[1050px]:px-10 max-[760px]:px-[25px] max-[420px]:px-5">
+      <SiteHeader />
+      <slot />
+      <footer class="flex min-h-[70px] items-center justify-between gap-[15px] border-t border-line text-[9px] text-[#7d8874] max-[420px]:text-[8px]">
+        <span>© {year} Navigate</span>
+        <span class="text-[7px] tracking-[.15em] max-[760px]:hidden">
+          PENSADO PARA VER MÁS ALLÁ.
+        </span>
+        <span>
+          Análisis de inversiones{' '}
+          <span class="ml-2" aria-hidden="true">
+            ↗
+          </span>
+        </span>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "review_status": "ready",
+  "source": "Sección 2 Vue.js + Composition API + TypeScript - Primeros Pasos/17. defineProps - Script Setup.md",
+  "previous": [
+    "Sección 2 Vue.js + Composition API + TypeScript - Primeros Pasos/16. RouterView, NavLink y NavBar.md"
+  ],
+  "objective": "Recibir un título tipado en Navbar y representar un valor alternativo cuando no se proporciona.",
+  "initial": "La 16 extrajo Navbar desde App. Se conserva la integración de router y el logo heredados. El cambio nuevo se limita al contrato title y su presentación.",
+  "certainty": "Se recuperan defineProps, Props y title opcional. El archivo final muestra únicamente el fragmento autónomo recuperable del título: logo, enlaces y CSS heredados no están íntegros en el original y no se inventan. No equivale al Navbar visual completo del curso. Las rutas de ejemplo son una disposición reconstruida.",
+  "evidence": [
+    {
+      "id": "E1",
+      "line": 15,
+      "phrase": "define props",
+      "change": "Macro de props sin importación explícita",
+      "certainty": "Mecanismo explícito; sintaxis ensamblada desde el discurso."
+    },
+    {
+      "id": "E2",
+      "line": 17,
+      "phrase": "interfaz interface",
+      "change": "Contrato Props con title string",
+      "certainty": "Mecanismo explícito; sintaxis ensamblada desde el discurso."
+    },
+    {
+      "id": "E3",
+      "line": 23,
+      "phrase": "símbolo de interrogación",
+      "change": "Prop opcional",
+      "certainty": "Mecanismo explícito; sintaxis ensamblada desde el discurso."
+    },
+    {
+      "id": "E4",
+      "line": 29,
+      "phrase": "un span vacío",
+      "change": "Experimento de v-if para evitar un nodo vacío",
+      "certainty": "Mecanismo explícito; sintaxis ensamblada desde el discurso."
+    },
+    {
+      "id": "E5",
+      "line": 33,
+      "phrase": "composition compo app",
+      "change": "Estado final con fallback Compo app",
+      "certainty": "Mecanismo explícito; sintaxis ensamblada desde el discurso."
+    }
+  ],
+  "phases": [
+    {
+      "title": "Definir la entrada requerida",
+      "code": "interface Props { title: string; }\ndefineProps<Props>();",
+      "why": "El padre conoce el dato obligatorio y su tipo al desarrollar.",
+      "check": "Omitir title o enviar un número debe producir un diagnóstico de TypeScript.",
+      "evidence": [
+        "E1",
+        "E2"
+      ],
+      "language": "ts"
+    },
+    {
+      "title": "Permitir la ausencia del título",
+      "code": "interface Props { title?: string; }\ndefineProps<Props>();",
+      "why": "La interfaz expresa que puede faltar; no convierte números a strings.",
+      "check": "Un consumidor sin title pasa el análisis de tipos.",
+      "evidence": [
+        "E3"
+      ],
+      "language": "ts"
+    },
+    {
+      "title": "Evitar un hueco y ofrecer un título alternativo",
+      "code": "<!-- Experimento previo: <span v-if=\"$props.title\">{{ $props.title }}</span> -->\n<span>{{ $props.title || 'Compo app' }}</span>",
+      "why": "El último experimento conserva un nombre visible aunque falte la prop.",
+      "check": "Sin title aparece Compo app; con title aparece el valor del padre.",
+      "evidence": [
+        "E4",
+        "E5"
+      ],
+      "language": "vue"
+    }
+  ],
+  "files": [
+    {
+      "path": "src/shared/components/Navbar.vue (fragmento autónomo recuperable del título)",
+      "language": "vue",
+      "provenance": "E1 a E5; integración visual heredada de 16 excluida por falta de adjuntos.",
+      "code": "<script setup lang=\"ts\">\ninterface Props {\n  title?: string;\n}\ndefineProps<Props>();\n</script>\n\n<template>\n  <nav>\n    <span>{{ $props.title || 'Compo app' }}</span>\n  </nav>\n</template>"
+    }
+  ],
+  "temporary": "Se prueba primero title obligatorio; después opcional y un v-if. El fallback con OR es el último estado. withDefaults se anuncia para 18, no se adelanta. No se reconstruyen los estilos adjuntos ni los enlaces no visibles.",
+  "mental": "El padre entrega datos; Props declara su forma; la vista decide qué mostrar cuando faltan. Los tipos no convierten ni validan respuestas HTTP."
+}

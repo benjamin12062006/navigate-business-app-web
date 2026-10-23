@@ -3,18 +3,26 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./src/*"
-      ],
-      "@/assets/*": [
-        "./assets/*"
-      ]
-    }
+      "@/*": ["./src/*"],
+      "@app/*": ["./app/*"],
+      "@shared": ["./app/shared/index.ts"],
+      "@shared/*": ["./app/shared/*"],
+      "@modules/*": ["./app/modules/*"],
+      "@composition/*": ["./app/composition/*"],
+      "@bootstrap/*": ["./app/bootstrap/*"],
+      "@ui/*": ["./app/ui/*"]
+    },
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "verbatimModuleSyntax": true
   },
   "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts"
-  ]
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "*.d.ts",
+    ".expo/types/**/*.ts"
+  ],
+  "exclude": ["node_modules", "docs", "android", "ios", "dist"]
 }

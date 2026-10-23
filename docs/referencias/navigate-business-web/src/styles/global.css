@@ -1,0 +1,16 @@
+@import 'tailwindcss' source('../');
+@source '../../app';
+
+/* Tokens compartidos; cada vista usa utilidades Tailwind. */
+@theme {
+  --font-sans: 'DM Sans', Arial, sans-serif;
+  --font-display: 'Instrument Serif', Georgia, serif;
+  --color-paper: #f4f5ef;
+  --color-ink: #25382a;
+  --color-accent: #6a8057;
+  --color-line: #dfe4d7;
+  --color-action: #263e2c;
+  --color-action-hover: #36553d;
+  --color-focus: #688a50;
+  --shadow-access: 0 16px 55px -34px #263d2e55;
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "review_status": "ready",
+  "source": "Sección 4 Vue + Vite - Single-File Components/48. Composable Functions.md",
+  "previous": [],
+  "objective": "Extraer estado y cálculo del contador a useCounter, conservando una instancia local por llamada y un valor inicial opcional.",
+  "initial": "El componente ya posee counter y squareCounter. La clase describe su traslado a un archivo independiente; el template del contador permanece heredado y no se reproduce su marcado ausente.",
+  "certainty": "Alta confianza en ref, computed, retorno y initialValue = 5. Se normaliza la transcripción fonética de useCounter/squareCounter. Solo se recompone el archivo nuevo, no el template previo ni el ejemplo de ratón de la documentación.",
+  "evidence": [
+    {
+      "id": "E1",
+      "line": 13,
+      "phrase": "reutilizar código",
+      "change": "Motivación y estado local del composable",
+      "certainty": "Mecanismo explícito; sintaxis ensamblada desde el discurso."
+    },
+    {
+      "id": "E2",
+      "line": 19,
+      "phrase": "Use counter punto TS",
+      "change": "Archivo separado",
+      "certainty": "Mecanismo explícito; sintaxis ensamblada desde el discurso."
+    },
+    {
+      "id": "E3",
+      "line": 25,
+      "phrase": "importar ref y computer",
+      "change": "Referencias y cálculo derivados",
+      "certainty": "Mecanismo explícito; sintaxis ensamblada desde el discurso."
+    },
+    {
+      "id": "E4",
+      "line": 29,
+      "phrase": "counter y el Square counter",
+      "change": "Contrato consumido por la vista",
+      "certainty": "Mecanismo explícito; sintaxis ensamblada desde el discurso."
+    },
+    {
+      "id": "E5",
+      "line": 35,
+      "phrase": "por defecto le puedo poner valor de cinco",
+      "change": "Argumento inicial opcional",
+      "certainty": "Mecanismo explícito; sintaxis ensamblada desde el discurso."
+    }
+  ],
+  "phases": [
+    {
+      "title": "Extraer estado y cálculo",
+      "code": "import { computed, ref } from 'vue';\nexport const useCounter = () => {\n  const counter = ref(5);\n  const squareCounter = computed(() => counter.value * counter.value);\n  return { counter, squareCounter };\n};",
+      "why": "El componente deja de contener las mismas declaraciones reactivas.",
+      "check": "Dos llamadas a useCounter conservan contadores independientes.",
+      "evidence": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "language": "ts"
+    },
+    {
+      "title": "Consumir el contrato desde el componente",
+      "code": "import { useCounter } from '../composables/useCounter';\nconst { counter, squareCounter } = useCounter();",
+      "why": "El template heredado conserva sus referencias, pero su origen está separado.",
+      "check": "Modificar counter actualiza squareCounter; no copiar el valor numérico fuera del computed.",
+      "evidence": [
+        "E4"
+      ],
+      "language": "ts"
+    },
+    {
+      "title": "Recibir el valor inicial",
+      "code": "export const useCounter = (initialValue: number = 5) => {\n  const counter = ref(initialValue);\n  const squareCounter = computed(() => counter.value * counter.value);\n  return { counter, squareCounter };\n};",
+      "why": "La misma lógica sirve para contadores con distintas entradas.",
+      "check": "useCounter(10) empieza en 10 y su cuadrado es 100; sin argumento empieza en 5.",
+      "evidence": [
+        "E5"
+      ],
+      "language": "ts"
+    }
+  ],
+  "files": [
+    {
+      "path": "src/composables/useCounter.ts",
+      "language": "ts",
+      "provenance": "E1 a E5; multiplicación ensamblada del squareCounter descrito, no captura literal del editor.",
+      "code": "import { computed, ref } from 'vue';\n\nexport const useCounter = (initialValue: number = 5) => {\n  const counter = ref(initialValue);\n  const squareCounter = computed(() => counter.value * counter.value);\n\n  return {\n    counter,\n    squareCounter,\n  };\n};"
+    }
+  ],
+  "temporary": "Se prueba un argumento requerido y después se deja opcional con 5. El ejemplo de ratón solo motiva la extracción. La clase observa que exponer funciones mutadoras sería conveniente, pero todavía devuelve las refs; no se añaden acciones que no muestra.",
+  "mental": "El composable encapsula lógica reactiva; la vista consume su contrato. El argumento inicial de esta clase es un número, no una prop observada continuamente."
+}

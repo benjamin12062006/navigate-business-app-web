@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    min-height: 100%;
+    background-color: #f4f5ef;
+  }
+  body {
+    margin: 0;
+  }
+  :focus-visible {
+    outline: 3px solid #688a50;
+    outline-offset: 5px;
+  }
+  ::selection {
+    background-color: #d7e3c9;
+    color: #203622;
+  }
+}

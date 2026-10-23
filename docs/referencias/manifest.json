@@ -1,0 +1,735 @@
+{
+  "copiedAt": "2026-10-22",
+  "files": [
+    {
+      "source": "navigate-business-web/docs/01-guia-documental-y-orden-de-trabajo.md",
+      "copy": "docs/referencias/navigate-business-web/docs/01-guia-documental-y-orden-de-trabajo.md",
+      "sha256": "39487c83b9839d74a74b346b3bad1a14badcaf4aaf9235e3c1e4c9f79041838f"
+    },
+    {
+      "source": "navigate-business-web/docs/plans/05-separar-src-astro-y-app-arquitectura.md",
+      "copy": "docs/referencias/navigate-business-web/docs/plans/05-separar-src-astro-y-app-arquitectura.md",
+      "sha256": "a10fa5f707bc86982f7a178a38e7d97aa4845c5cbb9c30fe8c9feb6c2a364284"
+    },
+    {
+      "source": "navigate-business-web/docs/plans/03-organizacion-astro-estilos-y-reconstruccion-vue.md",
+      "copy": "docs/referencias/navigate-business-web/docs/plans/03-organizacion-astro-estilos-y-reconstruccion-vue.md",
+      "sha256": "6645c9695dd0b4f0609c98be910a2fb90769ccb0f4d9c32858ec669e76c90820"
+    },
+    {
+      "source": "navigate-business-web/docs/plans/02-filosofia-vue-y-prioridad-de-fuentes.md",
+      "copy": "docs/referencias/navigate-business-web/docs/plans/02-filosofia-vue-y-prioridad-de-fuentes.md",
+      "sha256": "7e83e4522919e22306b94b8d9e092ea5b423a6843fa95dfee7912a61ce4bb49d"
+    },
+    {
+      "source": "navigate-business-web/docs/plans/01-configuracion-antes-de-construir.md",
+      "copy": "docs/referencias/navigate-business-web/docs/plans/01-configuracion-antes-de-construir.md",
+      "sha256": "398ba28cc3faac4c64954185e1011a36ee39eb69809dd2b6374c9579a7b35db8"
+    },
+    {
+      "source": "navigate-business-web/docs/plans/04-arquitectura-completa-modulos-e-islas.md",
+      "copy": "docs/referencias/navigate-business-web/docs/plans/04-arquitectura-completa-modulos-e-islas.md",
+      "sha256": "76388a2dc14d50904d623c585d9f73c28ac35057a8ee99215eeffc395300cbc9"
+    },
+    {
+      "source": "navigate-business-web/docs/fonts/01-catalogo-cursos-astro-y-ui.md",
+      "copy": "docs/referencias/navigate-business-web/docs/fonts/01-catalogo-cursos-astro-y-ui.md",
+      "sha256": "7c73185f0850d73e278b24d7b090bfbca744791c8a549cfb5eb381091f90c86f"
+    },
+    {
+      "source": "navigate-business-web/docs/fonts/auth/04-recorrido-vue-y-organizacion-del-acceso.md",
+      "copy": "docs/referencias/navigate-business-web/docs/fonts/auth/04-recorrido-vue-y-organizacion-del-acceso.md",
+      "sha256": "20a66af29b5b38b75453f08a14a021f637cb336d0e2ae13aa98ae2ccf3b75095"
+    },
+    {
+      "source": "navigate-business-web/docs/fonts/auth/03-cursos-vue-y-adaptacion-del-acceso.md",
+      "copy": "docs/referencias/navigate-business-web/docs/fonts/auth/03-cursos-vue-y-adaptacion-del-acceso.md",
+      "sha256": "c6b09b6a5dae8baafb92cef8405f424d19db2d7724bb8b64b770717f32c8873f"
+    },
+    {
+      "source": "navigate-business-web/docs/fonts/auth/02-firebase-web-y-limites-del-cliente.md",
+      "copy": "docs/referencias/navigate-business-web/docs/fonts/auth/02-firebase-web-y-limites-del-cliente.md",
+      "sha256": "8588a36fdac73520314c4ca9376aa3a8024f7abd136752cbd1781860ae217fbb"
+    },
+    {
+      "source": "navigate-business-web/docs/fonts/auth/01-contrato-real-api-go.md",
+      "copy": "docs/referencias/navigate-business-web/docs/fonts/auth/01-contrato-real-api-go.md",
+      "sha256": "3908b810f84069cfea844ce71594b6af5cf91e391ba732cef083c68b875cb024"
+    },
+    {
+      "source": "navigate-business-web/docs/fonts/arquitectura/02-plantilla-clean-y-adaptacion-astro.md",
+      "copy": "docs/referencias/navigate-business-web/docs/fonts/arquitectura/02-plantilla-clean-y-adaptacion-astro.md",
+      "sha256": "5006f105e2f63f162c7aabea0e828d6e5374862315ab8cd38b23a5f52301546b"
+    },
+    {
+      "source": "navigate-business-web/docs/fonts/arquitectura/01-contratos-y-responsabilidades-typescript.md",
+      "copy": "docs/referencias/navigate-business-web/docs/fonts/arquitectura/01-contratos-y-responsabilidades-typescript.md",
+      "sha256": "eaca3b62c47410d9c5e543464f305131a63ee45d43ecdb853157123617ea7eab"
+    },
+    {
+      "source": "navigate-business-web/docs/fonts/astro/01-renderizado-islas-y-configuracion.md",
+      "copy": "docs/referencias/navigate-business-web/docs/fonts/astro/01-renderizado-islas-y-configuracion.md",
+      "sha256": "cc8306fd816ab749e861290cc57224d2bcd25d1616ec9fc1e7348f1d2ff4efe2"
+    },
+    {
+      "source": "navigate-business-web/docs/fonts/astro/02-recorrido-completo-auth-sin-vue.md",
+      "copy": "docs/referencias/navigate-business-web/docs/fonts/astro/02-recorrido-completo-auth-sin-vue.md",
+      "sha256": "720d0b5621932a33bb08b01ce8a429f10b53cab3df9243ce3044cd780d51f6e2"
+    },
+    {
+      "source": "navigate-business-web/docs/fonts/auth/recetas-vue/17.json",
+      "copy": "docs/referencias/navigate-business-web/docs/fonts/auth/recetas-vue/17.json",
+      "sha256": "dcdd9a4855565940c1654afc7e23ed3752ff6baeba30b1e0358c921f54ab52f7"
+    },
+    {
+      "source": "navigate-business-web/docs/fonts/auth/recetas-vue/quasar-manifest.json",
+      "copy": "docs/referencias/navigate-business-web/docs/fonts/auth/recetas-vue/quasar-manifest.json",
+      "sha256": "78164c14f7b23498b384f1ad0b19eea66c1370942070b219eb45401db03924bb"
+    },
+    {
+      "source": "navigate-business-web/docs/fonts/auth/recetas-vue/132.json",
+      "copy": "docs/referencias/navigate-business-web/docs/fonts/auth/recetas-vue/132.json",
+      "sha256": "d02456a3ac00bd3433fe334ad8110b216f931e4fa74cbbe390b65a389d8fdeec"
+    },
+    {
+      "source": "navigate-business-web/docs/fonts/auth/recetas-vue/48.json",
+      "copy": "docs/referencias/navigate-business-web/docs/fonts/auth/recetas-vue/48.json",
+      "sha256": "6a3320a97020524cf3323a5f52993b8bc53ee27f5374ef57eb44bf9b1aa19ae3"
+    },
+    {
+      "source": "navigate-business-web/docs/fonts/auth/recetas-vue/pinia-manifest.json",
+      "copy": "docs/referencias/navigate-business-web/docs/fonts/auth/recetas-vue/pinia-manifest.json",
+      "sha256": "b733673ec55c37e43e241a05a3994752236462aa064a6d6470f6bf64322b634a"
+    },
+    {
+      "source": "navigate-business-web/docs/plans/auth/01-google-firebase-y-api-go.md",
+      "copy": "docs/referencias/navigate-business-web/docs/plans/auth/01-google-firebase-y-api-go.md",
+      "sha256": "4986bca7efecc330b661a984847ddf9f4d7269ecc72d755ff6d1efe338fb0f0c"
+    },
+    {
+      "source": "navigate-business-web/bitacora-construccion/01-organizacion-astro-tailwind-y-contratos-typescript.md",
+      "copy": "docs/referencias/navigate-business-web/bitacora-construccion/01-organizacion-astro-tailwind-y-contratos-typescript.md",
+      "sha256": "991bca0bfbffcae005e42ebac64a3a6bab427018a5a1625235d806eb5409286c"
+    },
+    {
+      "source": "navigate-business-web/bitacora-construccion/auth/01-acceso-google-vue-y-cuenta-go.md",
+      "copy": "docs/referencias/navigate-business-web/bitacora-construccion/auth/01-acceso-google-vue-y-cuenta-go.md",
+      "sha256": "34568d1a17468b2768246b5325def5e573de7c8d189c733c4a6291855526a96b"
+    },
+    {
+      "source": "navigate-business-web/bitacora-construccion/auth/03-retirar-ayuda-local-y-recuperar-servidor.md",
+      "copy": "docs/referencias/navigate-business-web/bitacora-construccion/auth/03-retirar-ayuda-local-y-recuperar-servidor.md",
+      "sha256": "fc843f2bae6ff48511e4e90a92c207adda8bdd52efe6d27ef3fe9690e68e19bc"
+    },
+    {
+      "source": "navigate-business-web/bitacora-construccion/auth/05-separar-src-astro-y-app-arquitectura.md",
+      "copy": "docs/referencias/navigate-business-web/bitacora-construccion/auth/05-separar-src-astro-y-app-arquitectura.md",
+      "sha256": "a4de5438b4298c6aafe9fec24cb1830af7d0c111b7a746cc27610845e055389d"
+    },
+    {
+      "source": "navigate-business-web/bitacora-construccion/auth/04-migracion-clean-e-islas-independientes.md",
+      "copy": "docs/referencias/navigate-business-web/bitacora-construccion/auth/04-migracion-clean-e-islas-independientes.md",
+      "sha256": "7d20807a035b9c17c5c5f65c33e9731b00bc1f2f02ead785bde4700dfaaa35f4"
+    },
+    {
+      "source": "navigate-business-web/bitacora-construccion/auth/02-componentes-y-directorios-del-acceso.md",
+      "copy": "docs/referencias/navigate-business-web/bitacora-construccion/auth/02-componentes-y-directorios-del-acceso.md",
+      "sha256": "2d25e5e6472e093e5cc10deaf7e4abb6e54d36a3e017903bc5c99810cf777482"
+    },
+    {
+      "source": "navigate-business-web/bitacora-construccion/auth/06-correccion-contexto-fetch-http.md",
+      "copy": "docs/referencias/navigate-business-web/bitacora-construccion/auth/06-correccion-contexto-fetch-http.md",
+      "sha256": "62085c4ac0e014603405add95b80735a849b14fe6f15bf86443fd28aeb4bc723"
+    },
+    {
+      "source": "navigate-business-web/app/README.md",
+      "copy": "docs/referencias/navigate-business-web/app/README.md",
+      "sha256": "1a1f7d76f28773af5830986716904de2fe18056f0b642efa8cd4e515ac6c6bb7"
+    },
+    {
+      "source": "navigate-business-web/app/bootstrap/client.ts",
+      "copy": "docs/referencias/navigate-business-web/app/bootstrap/client.ts",
+      "sha256": "6ef1ca2d59aff06429d959e3cefbf7f9b39c751e3dff7d15f1c36dbde8f7cc39"
+    },
+    {
+      "source": "navigate-business-web/app/bootstrap/server.ts",
+      "copy": "docs/referencias/navigate-business-web/app/bootstrap/server.ts",
+      "sha256": "dfe7c82f50ff5ec5a9287a1e179492c7b935f883d2230fa253f121ce6a497a9d"
+    },
+    {
+      "source": "navigate-business-web/app/shared/index.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/index.ts",
+      "sha256": "6f2c23c0c04f0aaa5a4e00a63c377c87c8f16aaa2d99b12486d1a048cf579435"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/README.md",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/README.md",
+      "sha256": "2efd1e8e2bd65a4b048a1b0c3ec4a30f1baf1b836428fc17357fa7e0ede589e8"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/index.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/index.ts",
+      "sha256": "7b64ad2b7258a0f8de66945c320c896a5ed28524392eee68708ee5a317fc6869"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/tests/architecture-runtime.test.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/tests/architecture-runtime.test.ts",
+      "sha256": "44d80cd1aca10855faf6ce9d0c31ab5e5472dea554b9e4d52427d4400787b839"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/tests/account-gateway.test.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/tests/account-gateway.test.ts",
+      "sha256": "ab51bbc963b85864aaf20ec437a210ef1fbe0575cfed7e23413ec8cf50f5cf6f"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/tests/auth-controller.test.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/tests/auth-controller.test.ts",
+      "sha256": "e08567cc0004debc97306660262fbe0a1b53a29072876e409ae5f8198e2aa63a"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/presentation/composables/use-auth.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/presentation/composables/use-auth.ts",
+      "sha256": "c4578f64e61b4ea3a7da1ba0096dfbfe0e7a41948bb5803a3eb88ad293e637c0"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/presentation/presenters/auth-failure.presenter.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/presentation/presenters/auth-failure.presenter.ts",
+      "sha256": "10f01b90536f09517de0791aed1f21635cc8c26db5afdcae02e13ecbbfd74c62"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/presentation/view-models/auth-view-model.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/presentation/view-models/auth-view-model.ts",
+      "sha256": "eec5dc429781a256d1972df612464c945fbbe90f4acd77d625a585474be636b8"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/presentation/controllers/auth.controller.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/presentation/controllers/auth.controller.ts",
+      "sha256": "924fd6ac4bc6d37e35b0ff3532bbffc2798a2aec6ee3a366c29b25f64965601d"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/presentation/views/AuthSurface.vue",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/presentation/views/AuthSurface.vue",
+      "sha256": "fbdbd2441b2a7e39643bfc4c0fe7bfc13618e0ac7d09925e5882b6fafe1b0dfe"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/presentation/views/AuthPageView.vue",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/presentation/views/AuthPageView.vue",
+      "sha256": "3916a69a25222f05d034a566fd9521a28421a0ef62245761a58b8c375a1c42f4"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/presentation/components/status/AuthStatus.vue",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/presentation/components/status/AuthStatus.vue",
+      "sha256": "14b7d0704c601adcdbd3a10c4287eb1e4fc3bb1d6cd6707535624ee6f06bdad8"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/presentation/components/sign-in/AuthPrivacyNote.vue",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/presentation/components/sign-in/AuthPrivacyNote.vue",
+      "sha256": "3826d31217acd368bafdd287f76c80237ac5521d1ab8a7f007087f49018b8fab"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/presentation/components/sign-in/AuthSignIn.vue",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/presentation/components/sign-in/AuthSignIn.vue",
+      "sha256": "6e4e7ca4125e6254113212741fcfab1069f8f1a6751e95520c50035473012942"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/presentation/components/sign-in/AuthSignInActions.vue",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/presentation/components/sign-in/AuthSignInActions.vue",
+      "sha256": "3abd062e4d5ba3abe789ceb70e8b8776530d8f3457e352fef829b642eb714dce"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/presentation/components/account/AuthAccount.vue",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/presentation/components/account/AuthAccount.vue",
+      "sha256": "fca95fe29a629af98f998fe1266a090500752a7370e21d23a3948de26542dae9"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/domain/failures/auth-failure.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/domain/failures/auth-failure.ts",
+      "sha256": "bfa6942c459431a8ac960310c81abae3c91b1e71a1c15904d75529cd85d09a60"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/domain/entities/session-user.entity.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/domain/entities/session-user.entity.ts",
+      "sha256": "3a0434c0bd07ecde5c44bc90483e5057138adeec6e76b4857437504f50479c7e"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/domain/entities/account.entity.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/domain/entities/account.entity.ts",
+      "sha256": "8a52f53ab4f3433d49628ffd6a228ab672a8f8ce08da035472a07a739bd099c3"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/domain/ports/inbound/session-use-cases.port.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/domain/ports/inbound/session-use-cases.port.ts",
+      "sha256": "26cca20978919188bd82cf552bc50ad1120550eaf660933b1af3663c00c05c57"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/domain/ports/inbound/load-account-use-case.port.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/domain/ports/inbound/load-account-use-case.port.ts",
+      "sha256": "2c574b7a601bd2bb4299bc1b4f02ab547ca9cd215d506a9beb0dabd687d41ba6"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/domain/ports/outbound/session.port.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/domain/ports/outbound/session.port.ts",
+      "sha256": "1221b1c1480669fc7458276434c154931b3cb287a118d44dc995940fbe3541bf"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/domain/ports/outbound/account-gateway.port.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/domain/ports/outbound/account-gateway.port.ts",
+      "sha256": "6c607839926929a969b26daeb40060b5ae53e840e5f2a8c3f3eccafeea66b040"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/infrastructure/adapters/firebase-session.adapter.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/infrastructure/adapters/firebase-session.adapter.ts",
+      "sha256": "60e178bbfe434e3b6c2f0bf6ed16780479d0e901c1daf8c8cfeca5823e4aeb03"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/infrastructure/adapters/http-account-gateway.adapter.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/infrastructure/adapters/http-account-gateway.adapter.ts",
+      "sha256": "0ce6365d9995d5ec53d4670b64643bcb27b1523ae9d76364cc47d8ea4cbd78cc"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/infrastructure/mappers/account.mapper.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/infrastructure/mappers/account.mapper.ts",
+      "sha256": "24f0d4195c846b6229f7bb0202a1496d3288ef734dc053d8064345326527779d"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/infrastructure/mappers/firebase-failure.mapper.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/infrastructure/mappers/firebase-failure.mapper.ts",
+      "sha256": "cc9028538be1596246b329753a78128b0f80d77e3501fcb0f69b5cdd3e354d10"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/application/dto/account-output.dto.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/application/dto/account-output.dto.ts",
+      "sha256": "d37893b3674a26031998d7e748e332338358c74cdea723eaa0270680f1dd22dc"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/application/dto/load-account-input.dto.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/application/dto/load-account-input.dto.ts",
+      "sha256": "f72c1e469a6889a7ae92dbe5cb25b30ada90f8df604ca3dd06990532b4edd83e"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/application/use-cases/load-account.use-case.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/application/use-cases/load-account.use-case.ts",
+      "sha256": "02cc4fa113c07137da1f3a3be89354ebcc467506b0709f8b0c070f509dfb4582"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/application/use-cases/session.use-cases.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/application/use-cases/session.use-cases.ts",
+      "sha256": "5917d2ab322e3c1508e1468a227d94564b1edf97cf1e9ae8872f0f857610929c"
+    },
+    {
+      "source": "navigate-business-web/app/modules/auth/application/mappers/account-output.mapper.ts",
+      "copy": "docs/referencias/navigate-business-web/app/modules/auth/application/mappers/account-output.mapper.ts",
+      "sha256": "aa81726fa90d9b0d04de73e83e8edc7be34ad2c45875f39dc8149b1841b1b002"
+    },
+    {
+      "source": "navigate-business-web/app/composition/auth/create-auth-module.ts",
+      "copy": "docs/referencias/navigate-business-web/app/composition/auth/create-auth-module.ts",
+      "sha256": "e4722d72592f5863e529b82d12e042ff877b9d68927f959b44a64b7007193559"
+    },
+    {
+      "source": "navigate-business-web/app/composition/auth/auth-client.ts",
+      "copy": "docs/referencias/navigate-business-web/app/composition/auth/auth-client.ts",
+      "sha256": "bfff074b4bec0b0268780e607ec5f1791517e077e62fde29c676a1591788ed66"
+    },
+    {
+      "source": "navigate-business-web/app/shared/failures/index.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/failures/index.ts",
+      "sha256": "2a4f3c336e27b75587b3dfdefd07d167cc8958f8f466c9a6d4f85679e6dbdeb7"
+    },
+    {
+      "source": "navigate-business-web/app/shared/types/async-state.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/types/async-state.ts",
+      "sha256": "69e169b5b02f5de82281d5b3a7518d1f646780d5ea2b676a3a4209d170878649"
+    },
+    {
+      "source": "navigate-business-web/app/shared/types/primitive.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/types/primitive.ts",
+      "sha256": "2722db4dff63314326ec467de0a9c26a305110a77d61322be309b3b14f213b03"
+    },
+    {
+      "source": "navigate-business-web/app/shared/types/nullable.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/types/nullable.ts",
+      "sha256": "566c2bfa53d91fa76ee3fbfb9c2f4ad581559ca62e5a3cfa3e3164a9404c902c"
+    },
+    {
+      "source": "navigate-business-web/app/shared/result/result.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/result/result.ts",
+      "sha256": "c77163466dd5fe45e4d27d1430dd592bfc8967bad01e596d45eaba1983e786af"
+    },
+    {
+      "source": "navigate-business-web/app/shared/async/abort-scope.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/async/abort-scope.ts",
+      "sha256": "86b2b9cdf6065074d97d3c75ac87a4e80e052bfbe05c5f92d0bb12d011f52ac8"
+    },
+    {
+      "source": "navigate-business-web/app/shared/utils/identity.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/utils/identity.ts",
+      "sha256": "1a0830989ff0dc1be7bcdbf9e3e83f12178846d2bae9d101d03c10dbbcfc57b1"
+    },
+    {
+      "source": "navigate-business-web/app/shared/utils/invariant.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/utils/invariant.ts",
+      "sha256": "729260aff81719df388827a5d57a2d51086e96784ca755a5af011b63a3b7a54b"
+    },
+    {
+      "source": "navigate-business-web/app/shared/utils/assert-never.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/utils/assert-never.ts",
+      "sha256": "1522c58d02371f1a894e14e9ccc663224aeb1e8c793973a0f10156adbbeb503c"
+    },
+    {
+      "source": "navigate-business-web/app/shared/http/http-types.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/http/http-types.ts",
+      "sha256": "a9f99384b20d1b99bb10330ceb844625dd32550c876ce74fb385065285d0e1f0"
+    },
+    {
+      "source": "navigate-business-web/app/shared/http/http-client.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/http/http-client.ts",
+      "sha256": "cc90f8e7bfde8a926688ca1f933befa53010c895b75ea0cc62243f7bafdb5811"
+    },
+    {
+      "source": "navigate-business-web/app/shared/failures/ui-failure/constructors.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/failures/ui-failure/constructors.ts",
+      "sha256": "597c97022658e1604496e74503d280112eca57b6e4f190f25cb40f14b759e97e"
+    },
+    {
+      "source": "navigate-business-web/app/shared/failures/ui-failure/index.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/failures/ui-failure/index.ts",
+      "sha256": "0d50cde48d01dd1b3bf2df7d5f93a7d6b0a526788f1911cc2bade167be39dd08"
+    },
+    {
+      "source": "navigate-business-web/app/shared/failures/ui-failure/variants.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/failures/ui-failure/variants.ts",
+      "sha256": "72d907cb79d234d73988611ac2aa8b51eb9615e6e8fb651a59618822c4f0bf09"
+    },
+    {
+      "source": "navigate-business-web/app/shared/failures/infrastructure-failure/constructors.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/failures/infrastructure-failure/constructors.ts",
+      "sha256": "69e239005fe48a10ba5a7d6328c586c6058094645fcb7a25168a484c81827645"
+    },
+    {
+      "source": "navigate-business-web/app/shared/failures/infrastructure-failure/index.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/failures/infrastructure-failure/index.ts",
+      "sha256": "5127ec2d9ffd4dfb0b7a8faf8077d5b95040c72acc827c83aa43f18704ef44c9"
+    },
+    {
+      "source": "navigate-business-web/app/shared/failures/infrastructure-failure/variants.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/failures/infrastructure-failure/variants.ts",
+      "sha256": "c62962bec28f2087343b8f2a1ea123fad0f3f8cfe79c1e336fda2da25e100c17"
+    },
+    {
+      "source": "navigate-business-web/app/shared/failures/application-failure/constructors.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/failures/application-failure/constructors.ts",
+      "sha256": "28a277b011982b19817ff9c2f4e961c2b93078eca3c87f564332a80d9feb9a58"
+    },
+    {
+      "source": "navigate-business-web/app/shared/failures/application-failure/index.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/failures/application-failure/index.ts",
+      "sha256": "d7c4748b79067d8fbbc9a462477dda3d2713158d4751f3e967abde1e7b5b8e65"
+    },
+    {
+      "source": "navigate-business-web/app/shared/failures/application-failure/variants.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/failures/application-failure/variants.ts",
+      "sha256": "1df3520cbc0d5e3e942ea1cb6f91c71f64dcd33223ecb1f511cc3c221eae0a25"
+    },
+    {
+      "source": "navigate-business-web/app/shared/failures/domain-failure/constructors.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/failures/domain-failure/constructors.ts",
+      "sha256": "46b7c9862860e314e021385978dbb5d3641a73a55272e89ebfc9446345c6c45b"
+    },
+    {
+      "source": "navigate-business-web/app/shared/failures/domain-failure/index.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/failures/domain-failure/index.ts",
+      "sha256": "5b0e8e41234958bedca502cd6a7049bb28f3cb2d5a0b57080fc4cd6665284db6"
+    },
+    {
+      "source": "navigate-business-web/app/shared/failures/domain-failure/variants.ts",
+      "copy": "docs/referencias/navigate-business-web/app/shared/failures/domain-failure/variants.ts",
+      "sha256": "9e6729b7a618566c5f6eecb996d5b0d6c1f4584e7111aa4d01585819cf10c5bd"
+    },
+    {
+      "source": "navigate-business-web/app/bootstrap/app/create-shared-runtime.ts",
+      "copy": "docs/referencias/navigate-business-web/app/bootstrap/app/create-shared-runtime.ts",
+      "sha256": "604c59433a937979cc9f7412382704149b4eec630cc0524415b986eb1c08dacb"
+    },
+    {
+      "source": "navigate-business-web/app/bootstrap/env/client-env.ts",
+      "copy": "docs/referencias/navigate-business-web/app/bootstrap/env/client-env.ts",
+      "sha256": "cd0bd4512fe43fcec755564f74308f0a8bb4c51af75ca8ed8e770a76240901f9"
+    },
+    {
+      "source": "navigate-business-web/app/ui/components/ActionButton.vue",
+      "copy": "docs/referencias/navigate-business-web/app/ui/components/ActionButton.vue",
+      "sha256": "c2fd8da801593d63a6619e75c308f0cbe16533d0932a7d4f87506e0e938bcf35"
+    },
+    {
+      "source": "navigate-business-web/src/env.d.ts",
+      "copy": "docs/referencias/navigate-business-web/src/env.d.ts",
+      "sha256": "f04bcc077b8865965593a1859a6dd944924f2ea53982e69a5cee6740b4027d87"
+    },
+    {
+      "source": "navigate-business-web/src/README.md",
+      "copy": "docs/referencias/navigate-business-web/src/README.md",
+      "sha256": "f3676e10b36804badaffdb5ea1656daf8afaf7da9c317d2b52090ef2e1d072e3"
+    },
+    {
+      "source": "navigate-business-web/src/islands/AuthIsland.vue",
+      "copy": "docs/referencias/navigate-business-web/src/islands/AuthIsland.vue",
+      "sha256": "3618720bde253bf3780b3ee35dcd88fbee266e098484f1017232a0a9de25d0ff"
+    },
+    {
+      "source": "navigate-business-web/src/styles/global.css",
+      "copy": "docs/referencias/navigate-business-web/src/styles/global.css",
+      "sha256": "7589750d2a9cfad889fcb6e83c571bbe8bdad8eefc86d034263e21f86748731a"
+    },
+    {
+      "source": "navigate-business-web/src/layouts/MainLayout.astro",
+      "copy": "docs/referencias/navigate-business-web/src/layouts/MainLayout.astro",
+      "sha256": "9d356a528f819f069e33821d77b0eada6f9b849b2886f8062a2072448d710bbe"
+    },
+    {
+      "source": "navigate-business-web/src/pages/index.astro",
+      "copy": "docs/referencias/navigate-business-web/src/pages/index.astro",
+      "sha256": "ec898a2892fd2a9e6edcc5bbf9800c960aefe10e9dc0914d925358a6364a4a9c"
+    },
+    {
+      "source": "navigate-business-web/src/components/home/AccessIntroduction.astro",
+      "copy": "docs/referencias/navigate-business-web/src/components/home/AccessIntroduction.astro",
+      "sha256": "36e648cdf5d28047847c5d5e4dd8696be50188bfcec324490f8a31520300c493"
+    },
+    {
+      "source": "navigate-business-web/src/components/home/PerspectiveArt.astro",
+      "copy": "docs/referencias/navigate-business-web/src/components/home/PerspectiveArt.astro",
+      "sha256": "ed87506aae4542b164fbd98008663cd9683a8fc429bdb593dd8e86d0ff2be445"
+    },
+    {
+      "source": "navigate-business-web/src/components/layout/SiteHeader.astro",
+      "copy": "docs/referencias/navigate-business-web/src/components/layout/SiteHeader.astro",
+      "sha256": "dd59523e9a3ea07c8767179acc9101e2293fc2f4435d872063e9f509128207d2"
+    },
+    {
+      "source": "navigate-business-web/tooling/architecture.test.mjs",
+      "copy": "docs/referencias/navigate-business-web/tooling/architecture.test.mjs",
+      "sha256": "e2aa0a5336e889126912556b8f1e14169396118672e898800833a13c8fa4a077"
+    },
+    {
+      "source": "navigate-business-web/tooling/eslint/architecture.mjs",
+      "copy": "docs/referencias/navigate-business-web/tooling/eslint/architecture.mjs",
+      "sha256": "64bb2054fe89cdb13c20b801ad4cecf2260adc77dfd8f69e4f7c9622925b2f11"
+    },
+    {
+      "source": "navigate-business-web/public/favicon.svg",
+      "copy": "docs/referencias/navigate-business-web/public/favicon.svg",
+      "sha256": "29ac1159d350f81f3f6059c7f9a98ae995d37a111f39612ba7927284e2350e5e"
+    },
+    {
+      "source": "navigate-business-web/README.md",
+      "copy": "docs/referencias/navigate-business-web/README.md",
+      "sha256": "e17c5f07bc0893ac7c983736acaae69fc823839b96113708a13fea86ff9a4666"
+    },
+    {
+      "source": "navigate-business-web/AGENTS.md",
+      "copy": "docs/referencias/navigate-business-web/AGENTS.md",
+      "sha256": "258e71559ecd267cdca0f9751feb80e3249b79fd4b67e534247788cfdb4522c4"
+    },
+    {
+      "source": "navigate-business-web/package.json",
+      "copy": "docs/referencias/navigate-business-web/package.json",
+      "sha256": "c0b9ea4eed1e8190c7f562a5fbab761fffb1e0e2de073090b9214f57e0c296cd"
+    },
+    {
+      "source": "navigate-business-web/tsconfig.json",
+      "copy": "docs/referencias/navigate-business-web/tsconfig.json",
+      "sha256": "7825ce3f308ad287b2c5c2b1da4e236bca66ba804e524b690a4ef1a9031530b4"
+    },
+    {
+      "source": "navigate-business-web/astro.config.mjs",
+      "copy": "docs/referencias/navigate-business-web/astro.config.mjs",
+      "sha256": "36cd5cb91a2b337608b4a86ce996795cf8eeead874959f6d0a5db25b2f0b44b2"
+    },
+    {
+      "source": "backend/docs/plans/03-auth-firebase-surrealdb.md",
+      "copy": "docs/referencias/backend/docs/plans/03-auth-firebase-surrealdb.md",
+      "sha256": "1a76a540618bb3bdfe275c4243e13ea8da4aa769a2163e2252a2193ae2187725"
+    },
+    {
+      "source": "backend/docs/plans/04-esquema-y-migraciones-surrealkit.md",
+      "copy": "docs/referencias/backend/docs/plans/04-esquema-y-migraciones-surrealkit.md",
+      "sha256": "0c571b70fe000cdd805128ebd09713adfe9dd3c84131591e978c2976537cc4fe"
+    },
+    {
+      "source": "backend/docs/plans/02-integrar-auth-respetando-arquitectura-existente.md",
+      "copy": "docs/referencias/backend/docs/plans/02-integrar-auth-respetando-arquitectura-existente.md",
+      "sha256": "1ae083bc249178b9e8d93742e0013b30e88baaae6ff5400e20b29d653eb66ae2"
+    },
+    {
+      "source": "backend/docs/plans/01-migrar-usuarios-postgresql-surrealdb.md",
+      "copy": "docs/referencias/backend/docs/plans/01-migrar-usuarios-postgresql-surrealdb.md",
+      "sha256": "4d30ca19fbde7509a5cd98722a565acb1726977a93d6fb2017298100681c2f0c"
+    },
+    {
+      "source": "backend/docs/fonts/git-docs/01-gestionar-versiones-ramas-y-tags.md",
+      "copy": "docs/referencias/backend/docs/fonts/git-docs/01-gestionar-versiones-ramas-y-tags.md",
+      "sha256": "fa5477cef0de8bff0a3017f32ead0c5b797d732b0de48a098b7c85db3d2b41c8"
+    },
+    {
+      "source": "backend/docs/fonts/auth/02-patron-auth-del-backend-go.md",
+      "copy": "docs/referencias/backend/docs/fonts/auth/02-patron-auth-del-backend-go.md",
+      "sha256": "b47ba6f82884ac0bb58957ce64dda7441b180d90cac2f3c971a1250103f7314d"
+    },
+    {
+      "source": "backend/docs/fonts/auth/01-firebase-auth-y-verificacion-rust.md",
+      "copy": "docs/referencias/backend/docs/fonts/auth/01-firebase-auth-y-verificacion-rust.md",
+      "sha256": "80f25d5d931f28f838952d7224b3a16118a3a08c71afa8f7c4cb9f2142df5330"
+    },
+    {
+      "source": "backend/docs/fonts/auth/04-surrealkit-version-y-comandos-verificados.md",
+      "copy": "docs/referencias/backend/docs/fonts/auth/04-surrealkit-version-y-comandos-verificados.md",
+      "sha256": "cb24480bb6126ecd9c30054a14732649302c3a48a77d39c73b61f20c7487e66d"
+    },
+    {
+      "source": "backend/docs/fonts/auth/03-surrealdb-cuentas-identidad-y-transacciones.md",
+      "copy": "docs/referencias/backend/docs/fonts/auth/03-surrealdb-cuentas-identidad-y-transacciones.md",
+      "sha256": "76fe43dc92dd747b9f98dda848813713850722a91d44a636654bc434cf617ef5"
+    },
+    {
+      "source": "backend/docs/fonts/auth/05-arquitectura-original-y-adaptacion-aditiva.md",
+      "copy": "docs/referencias/backend/docs/fonts/auth/05-arquitectura-original-y-adaptacion-aditiva.md",
+      "sha256": "2d78d5a713b1ac0ec80e93a4d1e552f362777856627068c68b0101519c1ec093"
+    },
+    {
+      "source": "backend/bitacora-construccion/03-integrar-auth-sin-retirar-backend-existente.md",
+      "copy": "docs/referencias/backend/bitacora-construccion/03-integrar-auth-sin-retirar-backend-existente.md",
+      "sha256": "f885719105aac8550c840a2b2916e67ecb3a1e6eadff4797e46589bd1dc718e6"
+    },
+    {
+      "source": "backend/bitacora-construccion/05-fix-surrealdb-storage-unavailable.md",
+      "copy": "docs/referencias/backend/bitacora-construccion/05-fix-surrealdb-storage-unavailable.md",
+      "sha256": "af4e7a507ac1a3c373edc8e0fa8fd819a934cb43e2a2efb188bb9e67bb3b8055"
+    },
+    {
+      "source": "backend/bitacora-construccion/02-integrar-version-reciente-en-main.md",
+      "copy": "docs/referencias/backend/bitacora-construccion/02-integrar-version-reciente-en-main.md",
+      "sha256": "6714595ce15a0f465bb1e8cfa5223eb839c80cf1f3965fb4ab6bc19a20e4b031"
+    },
+    {
+      "source": "backend/bitacora-construccion/04-cors-en-errores-auth.md",
+      "copy": "docs/referencias/backend/bitacora-construccion/04-cors-en-errores-auth.md",
+      "sha256": "45e0b4b695c1779791f6b20e58788a2f9c4f03da473bb8c4c9956f3da0abeb2b"
+    },
+    {
+      "source": "backend/bitacora-construccion/01-integrar-evaluador-expresiones.md",
+      "copy": "docs/referencias/backend/bitacora-construccion/01-integrar-evaluador-expresiones.md",
+      "sha256": "5d4979a590164a409e633a479ae136933567ea44dcee26e547571d062ae5d43a"
+    },
+    {
+      "source": "backend/crates/docs/analisis/01-guia-de-estudio-auth-firebase-surrealdb.md",
+      "copy": "docs/referencias/backend/crates/docs/analisis/01-guia-de-estudio-auth-firebase-surrealdb.md",
+      "sha256": "386f7c264678eb7e930395a83043820999861db284f84637f6eb91b0100dab67"
+    },
+    {
+      "source": "backend/tests/docs/HTTP_POST_USER_FLOW.md",
+      "copy": "docs/referencias/backend/tests/docs/HTTP_POST_USER_FLOW.md",
+      "sha256": "8afc6d6da43444b72f2f584f14efbd33b3caba242515ee88d74bcae64a9a9094"
+    },
+    {
+      "source": "backend/tests/docs/UI_APP_TESTING_WARP.md",
+      "copy": "docs/referencias/backend/tests/docs/UI_APP_TESTING_WARP.md",
+      "sha256": "fbd78f54e818dfea905424ecf0b429d6882ed0a38e5181fac109855f0af991aa"
+    },
+    {
+      "source": "backend/tests/docs/README.md",
+      "copy": "docs/referencias/backend/tests/docs/README.md",
+      "sha256": "8e155c0739c2b1d5abb8bca4b89bae55141e63e1cdacc66bed3182f86601b238"
+    },
+    {
+      "source": "backend/tests/docs/TEST_ARCHITECTURE_PLAN.md",
+      "copy": "docs/referencias/backend/tests/docs/TEST_ARCHITECTURE_PLAN.md",
+      "sha256": "5ca21b53e32e8028742af8e50883978594821c2c39e5da3be322acfdbc92ac03"
+    },
+    {
+      "source": "backend/tests/docs/TESTING_LAYER.md",
+      "copy": "docs/referencias/backend/tests/docs/TESTING_LAYER.md",
+      "sha256": "e096890224c88ad0f80f8b4433ec3c070f70abd3ece952a40c389b9b705c0b57"
+    },
+    {
+      "source": "backend/README.md",
+      "copy": "docs/referencias/backend/README.md",
+      "sha256": "801a2a1082e8379c93d613b0f17a8d26446c1c95a41ae44bda95afa5720b4185"
+    },
+    {
+      "source": "docs/product/05-ia-herramientas-y-evidencia.md",
+      "copy": "docs/referencias/docs/product/05-ia-herramientas-y-evidencia.md",
+      "sha256": "47ed1f39b3e9439d666c4a5f455905b2a3c512e99916a00e58415ab18ebd22a9"
+    },
+    {
+      "source": "docs/product/06-arquitectura-y-datos.md",
+      "copy": "docs/referencias/docs/product/06-arquitectura-y-datos.md",
+      "sha256": "c4be3ff587418b3d3e1d574027def9c609f93598a9235c5a11644bead0e179b7"
+    },
+    {
+      "source": "docs/product/02-usuarios-y-propuesta-de-valor.md",
+      "copy": "docs/referencias/docs/product/02-usuarios-y-propuesta-de-valor.md",
+      "sha256": "45f2b506d73232f884eefdfea6ed0e746a9f15d549cef5957a056af0d99f92db"
+    },
+    {
+      "source": "docs/product/01-vision-y-pilares.md",
+      "copy": "docs/referencias/docs/product/01-vision-y-pilares.md",
+      "sha256": "d35a80f3d383f708e06f7bbe454f87216e23ddd9b595e9e3d4296f8b9d6a84de"
+    },
+    {
+      "source": "docs/product/07-fases-limites-y-decisiones.md",
+      "copy": "docs/referencias/docs/product/07-fases-limites-y-decisiones.md",
+      "sha256": "0f247d1cb0d0fb9014b9e092adcaab92434a69ce4de0547be60162a786f8e9f2"
+    },
+    {
+      "source": "docs/product/03-dominio-y-capacidades.md",
+      "copy": "docs/referencias/docs/product/03-dominio-y-capacidades.md",
+      "sha256": "b4aff922b78cf199b28a4e6a161c61c548286ec9a5f4fbbbefe9c390b39b0289"
+    },
+    {
+      "source": "docs/product/README.md",
+      "copy": "docs/referencias/docs/product/README.md",
+      "sha256": "4a24308689c00d44b3798fb8ac93ab01d1c4607d23a82dc383bf53c2c575a842"
+    },
+    {
+      "source": "docs/product/04-requisitos-y-recorridos.md",
+      "copy": "docs/referencias/docs/product/04-requisitos-y-recorridos.md",
+      "sha256": "c32bef921d5f7006fde2346089b6f8a6312fe2605b77858d0a474af81a4904f0"
+    },
+    {
+      "source": "docs/README.md",
+      "copy": "docs/referencias/docs/README.md",
+      "sha256": "d340dfdf77f5c7903e0f9f4f848355930db12f74671fe767650a078b946ade96"
+    },
+    {
+      "source": "navigate-business-web/docs/visual/auth/02-acceso-compacto.jpg",
+      "copy": "docs/referencias/navigate-business-web/docs/visual/auth/02-acceso-compacto.jpg",
+      "sha256": "958100ddb96490f95186921deef1c9aba6db029a38a4935acc2f8033580530d6"
+    },
+    {
+      "source": "navigate-business-web/docs/visual/auth/01-acceso-escritorio.jpg",
+      "copy": "docs/referencias/navigate-business-web/docs/visual/auth/01-acceso-escritorio.jpg",
+      "sha256": "4c53caa75364cb50cd098314f09e658e208c5ab641f6b3f8c9edea764f37681f"
+    },
+    {
+      "source": "navigate-business-web/bitacora-construccion/.gitkeep",
+      "copy": "docs/referencias/navigate-business-web/bitacora-construccion/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "source": "backend/docs/plans/.gitkeep",
+      "copy": "docs/referencias/backend/docs/plans/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "source": "backend/docs/fonts/.gitkeep",
+      "copy": "docs/referencias/backend/docs/fonts/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "source": "backend/bitacora-construccion/.gitkeep",
+      "copy": "docs/referencias/backend/bitacora-construccion/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    }
+  ]
+}

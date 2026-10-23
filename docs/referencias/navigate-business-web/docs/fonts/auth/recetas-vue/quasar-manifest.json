@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "date": "2026-10-17",
+  "originals": {
+    "Sección 2 Vue.js + Composition API + TypeScript - Primeros Pasos/17. defineProps - Script Setup.md": "6abd2f32e87209b0341c5655d68cf28fcd76bb5ab82c806f61225b222fb42714",
+    "Sección 2 Vue.js + Composition API + TypeScript - Primeros Pasos/16. RouterView, NavLink y NavBar.md": "fb0b1075d0126aee7a03d9efc4c11a4785923df13568e44f2020830ad4c4033e"
+  },
+  "guides": [
+    {
+      "source": "Sección 2 Vue.js + Composition API + TypeScript - Primeros Pasos/17. defineProps - Script Setup.md",
+      "guide": "Sección 2 Vue.js + Composition API + TypeScript - Primeros Pasos/17. defineProps - Script Setup - Reconstrucción guiada.md",
+      "sha256": "27c8fd89116be39a20d2c7550304556a357fbed98b91b4a1cd938935fc4b84b0"
+    }
+  ]
+}

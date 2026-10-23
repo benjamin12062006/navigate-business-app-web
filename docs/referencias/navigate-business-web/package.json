@@ -1,0 +1,45 @@
+{
+  "name": "navigate-business-web",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": "^22.13.0 || >=24.0.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "check": "astro check && vue-tsc --noEmit",
+    "test": "vitest run",
+    "lint": "eslint . --max-warnings 0",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write src app tooling *.mjs *.ts *.json",
+    "format:check": "prettier --check src app tooling *.mjs *.ts *.json",
+    "verify": "pnpm lint && pnpm check && pnpm test && pnpm build"
+  },
+  "dependencies": {
+    "@astrojs/vue": "^7.1.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^7.3.3",
+    "firebase": "^13.0.0",
+    "tailwindcss": "^4.3.3",
+    "vue": "^3.5.44"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.6.5",
+    "eslint": "^10.13.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-astro": "^3.2.1",
+    "eslint-plugin-vue": "^10.11.1",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.10",
+    "prettier-plugin-astro": "^1.1.1",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.71.2",
+    "vitest": "^5.0.5",
+    "vue-tsc": "^3.3.13"
+  }
+}

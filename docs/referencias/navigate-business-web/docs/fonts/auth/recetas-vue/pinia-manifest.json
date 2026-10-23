@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "date": "2026-10-17",
+  "originals": {
+    "Sección 4 Vue + Vite - Single-File Components/48. Composable Functions.md": "75747c17d5752975bfaed752d5cb8d990a90bbaaad30d590826258340409a853",
+    "Sección 9 Vue Router - SPA - Single Page Applications/132. Ciclo de vida de los componentes.md": "330f6e5ca351fe4c26a85cc5bd50eabb40c92ce812161a77df423b99ddcc44a6"
+  },
+  "guides": [
+    {
+      "source": "Sección 4 Vue + Vite - Single-File Components/48. Composable Functions.md",
+      "guide": "Sección 4 Vue + Vite - Single-File Components/48. Composable Functions - Reconstrucción guiada.md",
+      "sha256": "75531633d5fe4f9164c300a36a8d79e9d124c3c76da989d62e45ff473cd015ac"
+    },
+    {
+      "source": "Sección 9 Vue Router - SPA - Single Page Applications/132. Ciclo de vida de los componentes.md",
+      "guide": "Sección 9 Vue Router - SPA - Single Page Applications/132. Ciclo de vida de los componentes - Reconstrucción guiada.md",
+      "sha256": "5f2d6c9449daf342855bc263ad782ec7bd62048d6dd330b37b6e7c17b8697502"
+    }
+  ]
+}

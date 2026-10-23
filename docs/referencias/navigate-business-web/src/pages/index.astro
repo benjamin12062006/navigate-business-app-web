@@ -1,0 +1,39 @@
+---
+import AccessIntroduction from '../components/home/AccessIntroduction.astro';
+import AuthIsland from '@islands/AuthIsland.vue';
+import MainLayout from '../layouts/MainLayout.astro';
+---
+
+<MainLayout
+  title="Accede a tu espacio · Navigate"
+  description="Accede a tu espacio personal en Navigate. Claridad y contexto para construir tu propia perspectiva de inversión."
+  skipTo="#acceso"
+>
+  <main
+    id="contenido"
+    class="grid flex-1 grid-cols-[1.2fr_1fr] items-center gap-[clamp(40px,7vw,110px)] pt-[65px] pb-[70px]
+      min-[1500px]:py-[90px] max-[1050px]:gap-10 max-[760px]:grid-cols-1 max-[760px]:pt-[43px] max-[760px]:pb-[45px]"
+  >
+    <AccessIntroduction />
+    <div class="w-full max-w-[425px] justify-self-end max-[1050px]:max-w-[400px] max-[760px]:max-w-[470px] max-[760px]:justify-self-center">
+      <div class="mb-4 flex items-center gap-4 px-[3px] text-[8px] tracking-[.15em] text-[#819074]">
+        <span>01 / ACCESO</span>
+        <span class="h-px flex-1 bg-[#d9e0d0]"></span>
+        <span class="text-[15px]">↗</span>
+      </div>
+      <AuthIsland client:load />
+      <noscript>
+        <p class="rounded-lg border border-[#b9c6ac] p-[15px] text-[13px] leading-[1.6]">
+          Activa JavaScript para iniciar sesión con Google y acceder a tu
+          cuenta.
+        </p>
+      </noscript>
+      <p class="mt-5 flex items-center justify-center gap-2 text-[7px] tracking-[.13em] text-[#7c8971]">
+        <span class="text-xs" aria-hidden="true">
+          ◈
+        </span>{' '}
+        TU PUNTO DE VISTA. TU ESPACIO.
+      </p>
+    </div>
+  </main>
+</MainLayout>

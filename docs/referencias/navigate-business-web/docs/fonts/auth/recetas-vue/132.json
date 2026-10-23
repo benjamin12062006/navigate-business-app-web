@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "review_status": "ready",
+  "source": "Sección 9 Vue Router - SPA - Single Page Applications/132. Ciclo de vida de los componentes.md",
+  "previous": [],
+  "objective": "Observar el orden de setup, montaje, actualización y desmontaje, separando un script extenso del SFC.",
+  "initial": "Existe HomePage y su navegación. La lección modifica el script; el HTML previo no se recupera ni se amplía. El archivo final reúne los hooks cliente descritos.",
+  "certainty": "Se recompone HomePage.ts con defineComponent y setup. Los nombres canónicos onBeforeUnmount/onUnmounted normalizan la transcripción ambigua de desmontaje; logs y rutas son ensamblados, no copiados de una captura. No se agrega router ni HTML ausente. La lista de hooks es la interpretación de los eventos cliente que el discurso enumera.",
+  "evidence": [
+    {
+      "id": "E1",
+      "line": 15,
+      "phrase": "on Mounted",
+      "change": "Hook de montaje en script setup",
+      "certainty": "Mecanismo explícito; sintaxis ensamblada desde el discurso."
+    },
+    {
+      "id": "E2",
+      "line": 19,
+      "phrase": "Homepage punto TS",
+      "change": "Extracción a HomePage.ts con defineComponent/setup",
+      "certainty": "Mecanismo explícito; sintaxis ensamblada desde el discurso."
+    },
+    {
+      "id": "E3",
+      "line": 21,
+      "phrase": "src a punto slash",
+      "change": "Consumir el script con src sin el atributo setup",
+      "certainty": "Mecanismo explícito; sintaxis ensamblada desde el discurso."
+    },
+    {
+      "id": "E4",
+      "line": 13,
+      "phrase": "before update",
+      "change": "Hooks de actualización y error",
+      "certainty": "Mecanismo explícito; sintaxis ensamblada desde el discurso."
+    },
+    {
+      "id": "E5",
+      "line": 29,
+      "phrase": "quitar suscripciones",
+      "change": "Desmontaje como lugar para liberar recursos",
+      "certainty": "Mecanismo explícito; sintaxis ensamblada desde el discurso."
+    }
+  ],
+  "phases": [
+    {
+      "title": "Observar el montaje",
+      "code": "import { onMounted } from 'vue';\nonMounted(() => console.log('onMounted'));",
+      "why": "El hook se ejecuta cuando el componente ya está montado.",
+      "check": "Al entrar en HomePage aparece su log de montaje.",
+      "evidence": [
+        "E1"
+      ],
+      "language": "ts"
+    },
+    {
+      "title": "Extraer el script tradicional",
+      "code": "import { defineComponent, onMounted } from 'vue';\nexport default defineComponent({\n  setup() {\n    console.log('setup');\n    onMounted(() => console.log('onMounted'));\n  },\n});",
+      "why": "El SFC puede conservar un template legible y referir un script independiente.",
+      "check": "En el SFC usar <script lang=\"ts\" src=\"./HomePage.ts\"></script>, sin setup. setup se registra antes de onMounted.",
+      "evidence": [
+        "E2",
+        "E3"
+      ],
+      "language": "ts"
+    },
+    {
+      "title": "Observar cambios y desmontaje",
+      "code": "onBeforeUpdate(() => console.log('onBeforeUpdate'));\nonUpdated(() => console.log('onUpdated'));\nonBeforeUnmount(() => console.log('onBeforeUnmount'));\nonUnmounted(() => console.log('onUnmounted'));",
+      "why": "Actualizar y abandonar la página tienen momentos distintos; el desmontaje permite liberar suscripciones.",
+      "check": "La actualización requiere una dependencia reactiva del template heredado. Al salir se ejecutan los hooks de desmontaje. El log no libera recursos por sí mismo.",
+      "evidence": [
+        "E4",
+        "E5"
+      ],
+      "language": "ts"
+    }
+  ],
+  "files": [
+    {
+      "path": "HomePage.ts (junto al SFC heredado)",
+      "language": "ts",
+      "provenance": "E1 a E5; nombres de los hooks cliente normalizados. Ubicación exacta de la página no recuperada.",
+      "code": "import {\n  defineComponent,\n  onBeforeMount,\n  onMounted,\n  onBeforeUpdate,\n  onUpdated,\n  onBeforeUnmount,\n  onUnmounted,\n  onErrorCaptured,\n} from 'vue';\n\nexport default defineComponent({\n  setup() {\n    console.log('setup');\n    onBeforeMount(() => console.log('onBeforeMount'));\n    onMounted(() => console.log('onMounted'));\n    onBeforeUpdate(() => console.log('onBeforeUpdate'));\n    onUpdated(() => console.log('onUpdated'));\n    onBeforeUnmount(() => console.log('onBeforeUnmount'));\n    onUnmounted(() => console.log('onUnmounted'));\n    onErrorCaptured(() => console.log('onErrorCaptured'));\n  },\n});"
+    }
+  ],
+  "temporary": "Se retira setup del script que usa src. onServerPrefetch no se usa en esta demostración cliente. activated/deactivated se posponen a la siguiente lección. No se convierte la preferencia del instructor por scripts cortos en una regla fija de diez líneas.",
+  "mental": "setup prepara la instancia; mounted permite trabajar con referencias montadas; unmounted permite liberar los recursos propios. Registrar un hook y cancelar realmente una suscripción son acciones distintas."
+}
